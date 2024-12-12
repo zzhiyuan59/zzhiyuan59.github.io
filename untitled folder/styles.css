@@ -25,7 +25,8 @@ left {
 
 right {
     width: 30%;
-    text-align: right;
+    /* text-align: right; */
+    justify-content: flex-end;
 }
 
 

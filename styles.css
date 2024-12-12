@@ -26,10 +26,6 @@ right {
     width: 30%;
 }
 
-edu{
-    margin-bottom: 20px;
-}
-
 
 h1,
 h2 {
@@ -46,7 +42,7 @@ li {
     color: #444;
 }
 
-ul {
+ul,ol {
     padding-left: 20px;
 }
 

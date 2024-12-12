@@ -1,26 +1,71 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.education-section {
-    border: 1px solid #ddd;
-    padding: 10px;
+body{
+    padding: 30px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+left {
+    width: 70%;
+}
+
+right {
+    width: 30%;
+}
+
+edu{
     margin-bottom: 20px;
-    background-color: #f9f9f9;
 }
 
-.degree-details {
-    margin-top: 10px;
-    padding-left: 20px;
-    border-left: 2px solid #ccc;
-}
 
+h1,
 h2 {
-    color: #333;
+    color: #000;
+    margin-top: 10;
 }
 
-p {
-    margin: 5px 0;
+h3 {
+    color: #000;
+}
+
+p,
+li {
+    color: #444;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+hr {
+    padding: 0;
+}
+
+.head{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

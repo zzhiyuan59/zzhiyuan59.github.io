@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+left {
+    width: 70%;
+    text-align: left;
+}
+
+right {
+    width: 30%;
+    /* text-align: right; */
+    justify-content: flex-end;
+}
+
+
+h1,
+h2 {
+    color: #000;
+    margin-top: 10;
+}
+
+h3 {
+    color: #000;
+}
+
+p,
+li {
+    color: #444;
+}
+
+ul,ol {
+    padding-left: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+hr {
+    padding: 0;
+}
+
+.head{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
